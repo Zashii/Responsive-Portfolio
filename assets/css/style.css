@@ -1,0 +1,265 @@
+body { 
+    background-image:url("assets/images/background.jpg");
+    background-size: cover;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header {
+    height:88px; 
+    background-color: #FFFFFF; 
+    z-index: 10; 
+    margin: 0 auto;
+    border-bottom: 2px solid #cccccc;
+}
+
+.blog {
+    width: 100%; 
+    background-color: #ffffff;
+    overflow: auto; 
+    position: relative; 
+    padding: 20px;
+    border: 2px solid #dddddd;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#name {
+    background-color: #4aaaa5;
+    position: fixed;
+    top: -12px; 
+    font-size: 32px;
+    padding: 15px; 
+    margin-top: 30px; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    color: white;
+    left: 17%;
+}
+
+.name_layout {
+    float: left; 
+    font-size: 1px; 
+    background-color: #4aaaa5";
+}
+
+button:hover {
+    background-color: rgb(131, 255, 249);
+}
+
+#name:hover {
+    background-color: rgb(131, 255, 249);
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.btn2 {
+    margin-bottom: 25px; 
+    background-color: #ffffff;
+}
+
+.footer {
+    width:100%; 
+    height: 55px; 
+    background-color: #666666; 
+    color: white; 
+    position: fixed; 
+    bottom: -30px; 
+    padding-top: 20px; 
+    text-align: center;
+    margin-bottom: 30px;
+    border-top: 10px solid #4aaaa5;
+}
+
+hr {
+    width: 95%;
+    border-color: #666666;
+    background-color: #666666;
+}
+
+.title {
+    padding-left:20px; 
+    padding-top:10px; 
+    padding-bottom: 10px;
+    color: #4aaaa5;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 16px;
+}
+
+.portfolioItem{
+    padding: 6px; 
+    padding-top: 10px; 
+    padding-bottom: 8px; 
+    background-color: #4aaaa5; 
+    position: relative; 
+    bottom: 50px; 
+    text-align: center; 
+    color:white; 
+    margin-left:20px;
+}
+
+.portfolioThumbnail {
+    width:250px; 
+    margin-left:20px;
+}
+
+.menu {
+    float: right; 
+    font-size: 50px; 
+    margin-top: 20px; 
+    position: relative; 
+    right: -1x0px;
+}
+
+.thumbnail {
+    float:left; 
+    margin-right: 25px; 
+    width: 180px;
+}
+
+.lineHeight {
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 980px) {
+    .blog {
+         width: 65%;
+         margin-left:5%;
+         float:left;
+         height: 420px;
+    }
+
+    #portfolioBlog {
+        height: 680px;
+        margin-bottom: 150px;
+    }
+
+    .name_layout {
+        left:0px;
+    }
+    #name {
+        left:0px;
+        margin-left:5%;
+        width: 40%;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        right:-200px;
+    }
+
+    p {
+       font-size: 14px;
+    }
+
+    h1 {
+        font-size: 23px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .thumbnail {
+        width: 120px;
+    }
+
+    .lineHeight {
+        line-height: 25px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .portfolioThumbnail {
+        width: 200px;
+    }
+
+    .title {
+        padding-top: 0px;
+    }
+
+    #tableSpace {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .blog {
+         width:90%;
+    }
+
+    #tableSpace {
+        margin: 0 auto;
+    }
+
+
+    .menu {
+        right:-150px;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .blog {
+    }
+
+    .name_layout {
+        clear: both;
+        margin-bottom: 200px;
+    }
+
+    #name {
+        padding-top: 22px;
+        padding-bottom: 10px;
+        top: -30px;
+        left: 0px;
+        padding-left: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .menu {
+        float: none;
+        top: 20px;
+        left: 20px;
+        
+    }
+
+    .header {
+        height: 80px;
+    }
+}
